@@ -11,14 +11,14 @@
  * This is the implementation file (.cpp).
  */
 
-// include header file (and thus all of its declarations
+// include header file (and thus all of its declarations)
 #include "main.h"
 
 
 int main()
 {
     
-    // both functions can be called, because the C++ compiler knows about their existence, thanks to the included header file main.h
+    // both functions can be called, because the C++ compiler knows about their existence, due to the included header file main.h
     printTextAndInt("Some number: ", 7);
     printText("Some text");
     

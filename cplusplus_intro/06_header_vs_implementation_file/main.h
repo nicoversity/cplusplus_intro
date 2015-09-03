@@ -21,6 +21,8 @@
 
 
 // header content: all declarations go here
+
+// declaration of the namespace "std"
 using namespace std;
 
 // declaration of the main class's functions
@@ -28,7 +30,7 @@ void printText(string text);
 void printTextAndInt(string myText, int myInt);
 
 /*
- * Note: Within the header file, only declarations of functions should be included! The definition of these functions, meaning their actual source code, belongs into the according implementation file.
+ * Note: Within the header file, only declarations of functions should be included! The definition of these functions, meaning their actual source code, belongs into the header files implementation (.cpp) counterpart.
  */
 
 // end of the header guard

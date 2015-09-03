@@ -13,7 +13,7 @@
 
 
 /*
- * A function to print some text, followed by an int variable, as handed over in the function's parameter, to the standard output stream. Since the function if of type "void", no return statement is needed.
+ * A function to print some text, followed by an int variable, as handed over in the function's parameters, to the standard output stream. Since the function is of type "void", no return statement is needed.
  * The object "string" is used in order to store a series of single characters into one variable. The "string" object is defined in the "std" namespace, therefore the "std::" namespace prefix is needed upon declaration.
  */
 void printTextAndInt(std::string myText, int myInt)
@@ -43,7 +43,7 @@ int main()
     //std::cout << sum << std::endl;
     printTextAndInt("Sum: ", sum);
     
-    // substraction
+    // subtraction
     difference = x - y;
     //std::cout << difference << std::endl;
     printTextAndInt("Difference: ", difference);

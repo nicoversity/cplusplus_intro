@@ -16,7 +16,7 @@
 int globalVariable = 16;
 
 
-// function to add two int variables and return the sum
+// function to add two variables of type int and return its sum
 int add(int x, int y)
 {
     int sum = x + y;
@@ -24,7 +24,7 @@ int add(int x, int y)
 }
 
 
-// function to multiply two int variables and return the product
+// function to multiply two variables of type int and return its product
 int multiply(int x, int y)
 {
     return x * y;
@@ -36,7 +36,7 @@ void printTextAndInt(std::string myText, int myInt)
     std::cout << myText << myInt << std::endl;
     
     // global vs local variable
-    //printTextAndInt("Local variable = ", localVariable);      // not possible, because the function printTextAndInt does not know anything about the local variable "localVariable" (compiler error!)
+    //printTextAndInt("Local variable = ", localVariable);      // not possible, because the function printTextAndInt() does not know anything about the local variable with the name "localVariable" (compiler error!)
     //printTextAndInt("Global variable = ", globalVariable);    // possible, because the function printTextAndInt can reach global variables within the same class
 }
 

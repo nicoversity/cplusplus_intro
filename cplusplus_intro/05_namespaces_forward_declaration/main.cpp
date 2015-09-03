@@ -15,13 +15,13 @@
 /*
  * declaration of the namespace "std"
  *
- * Namespaces are used to organize your project in C++. Using a specific namespace you are able to access it's functions and variables accordingly. Different namespaces might hold functions and variables with the same name. Therefore namespaces help to differentiate between these.
- * By declaring the usage of namespace in the beginning of the class, it's prefix might be skipped whenever a function or variable of is accessed.
+ * Namespaces are used to organize your project in C++. Using a specific namespace you are able to access it's functions and (object) data types accordingly. Different namespaces might hold functions and (object) data types with the same name. Therefore namespaces help to differentiate between those.
+ * By declaring the usage of the namespace in the beginning of the class, its prefix might be skipped whenever a function or variable of it is accessed.
  */
 using namespace std;
 
 
-//void printTextAndInt(std::string myText, int myInt)
+//void printTextAndInt(std::string myText, int myInt)   // before (without globale namespace declaration)
 void printTextAndInt(string myText, int myInt)
 {
     // before (without global namespace declaration)
@@ -32,7 +32,7 @@ void printTextAndInt(string myText, int myInt)
 }
 
 
-// foward declaration of the function "printText", which is defined beneath the main() function
+// forward declaration of the function "printText()", which is defined beneath the main() function
 void printText(string text);
 
 
@@ -41,7 +41,7 @@ int main()
     printTextAndInt("Some number: ", 7);
     
     // works: only with forward declaration as presented above
-    // does not work (compiler error): without foward declaration
+    // without foward declaration: does not work (compiler error)
     printText("Some text");
     
     return 0;
@@ -49,8 +49,8 @@ int main()
 
 
 /*
- * This function to print some text is completely correct and there is nothing wrong with it. However, when this function is called within the main function above, the C++ compiler has no knowledge about it yet and thus will not compile the written code. Therefore, this function needs to be declared before its calling in the main method ("forward declaration").
- * In order to avoid troubles with ugly forward declarations, C++ applies the concept of "header" (.h) and "implementation" (.cpp) files for its classes. This concept is explained in the tutorial step.
+ * This function to print some text is completely correct and there is nothing wrong with it. However, when this function is called within the main function above, the C++ compiler has no knowledge about it yet and thus will not compile the written code. Therefore, this function needs to be declared before its call in the main method ("forward declaration").
+ * In order to avoid troubles with ugly forward declarations, C++ applies the concept of "header" (.h) and "implementation" (.cpp) files for its classes. This concept is explained in the next tutorial step.
  */
 void printText(string text)
 {

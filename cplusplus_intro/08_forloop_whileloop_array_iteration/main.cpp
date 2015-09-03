@@ -47,7 +47,9 @@ void demoForLoop(int max)
 void demoWhileLoop(int max)
 {
     /*
-     * The while-loop can be used to process iterative tasks as long as a certain condition is met. It consists of a conditional statement, the statements that get executing during each iteration as well as a potentially an increment statement.
+     * The while-loop can be used to process iterative tasks as long as a certain condition is met. It consists of a conditional statement, the statements that get executing during each iteration as well as potentially an increment statement.
+     *
+     * Note: A loop that will never exit and run forever is called "infinite loop" ("endless loop").
      *
      * while (condition)
      * {
@@ -72,8 +74,8 @@ void demoForLoopThroughArray()
     int myIntArray [6] = {4, 8, 15, 16, 23, 42};
     
     // calculating the array length
-    //cout << sizeof(myIntArray[0]) << endl;  // each int allocated 4 bytes in the storage
-    //cout << sizeof(myIntArray) << endl;     //6 * 4 bytes = 24 bytes allocated for the array
+    //cout << sizeof(myIntArray[0]) << endl;  // each int allocates 4 bytes in the system storage
+    //cout << sizeof(myIntArray) << endl;     // 6 * 4 bytes = 24 bytes allocated for the array
     int arraylength = sizeof(myIntArray) / sizeof(myIntArray[0]);
     
     // iterating through all elements (indexes) in the array

@@ -32,7 +32,7 @@ void printSomePrimitiveDataTypes()
     cout << "int = " << myInt << endl;
     
     // char - Character
-    // holds information about a single character in the alphabet
+    // holds information about a single character
     char myChar = 'z';
     cout << "char = " << myChar << endl;
     
@@ -51,7 +51,7 @@ void printSomePrimitiveDataTypes()
     
     /*
      * Type conversion
-     * It is possible to convert the value of variable into a value of another type. The example beneath illustrations the type conversation from an floating point value into an integer one. However, since the integer type is not able to store floating point information, this information is lost.
+     * It is possible to convert the value of a variable into a value of another type. The example beneath illustrates the type conversation from an floating point value into an integer one. However, since the integer type is not able to store floating point information, this information is lost.
      * The syntax for this type conversion is called "type cast".
      */
     int myFloatToInt = (int)myFloat; // type cast: float to int
@@ -63,7 +63,7 @@ void printSomePrimitiveDataTypes()
 void printString()
 {
     // string
-    // holds information in a series of single characters
+    // holds information as a series of single characters
     // part of the "std" namespace
     // technically not a "data type" but an "object" (featuring further functionalities and information)
     string text = "Hey ho let's go!";
@@ -81,17 +81,17 @@ void printArray()
 {
     /*
      * Declaration and initialization of an array holding information about six variables of type int
-     * An array, indicated by [], is of different values of a specific type within one variable. The number within the [] at the array declaration indicated the array's size, representing the amount of values that can be stored. In the example beneath, the array has space for six different values of type int.
+     * An array, indicated by [], is a collection of different values of a specific type within one variable. The number within the [] at the array declaration indicated the array's size, representing the amount of values that can be stored. In the example beneath, the array has space for six different values of type int.
      */
     int myIntArray [6] = {4, 8, 15, 16, 23, 42};
     
     /*
      * An individual array entry, called index, is accessed in the following notation: arrayName[index]
-     * Note: Array indexes start at 0 and NOT at 1! Therefore, the first entry in an array is accessed via arrayName[0], rather than by arrayName[1], which accesses actually the second index.
+     * Note: Array indexes start at 0 and NOT at 1! Therefore, the first entry in an array is accessed via arrayName[0], rather than by arrayName[1], which actually accesses the second index.
      */
     cout << "5th variable in the array = " << myIntArray[4] << endl;
     
-    // overwrite an information held by a individual index in the array
+    // overwrite information held by an individual index in the array
     myIntArray[4] = 7;
     cout << "overwritten 5th variable in the array = " << myIntArray[4] << endl;
 }

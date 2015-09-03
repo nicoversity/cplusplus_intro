@@ -38,14 +38,14 @@ int main()
 void demoIfElseStatement(bool status)
 {
     /*
-     * If-else statements are used to branch your source code. Upon the evaluation of a specific condition, one of two statements are executed. One set of statements is executed when the condition was met, while the other set is executed if the condition was not met.
+     * If-else statements are used to branch your source code. Upon the evaluation of a specific condition, one of two statements are executed. One set of statements is executed when the condition was met, while the other set is executed when the condition was not met.
      *
      * if (condition)
      * {
-     *     statements
+     *     statements if condition is met
      * } else
      * {
-     *     statements
+     *     statements if condition is not met
      * }
      */
     
@@ -60,7 +60,7 @@ void demoIfElseStatement(bool status)
 }
 
 
-// demonstrating the if-else statement with multiple layers (containing more than one if statement)
+// demonstrating the if-else statement with multiple layers (containing more than one if statement / condition)
 void demoIfElseIfElseStatement(int someInt)
 {
     /*
@@ -88,8 +88,9 @@ void demoIfElseIfElseStatement(int someInt)
 void demoSwitchStatement(int someInt)
 {
     /*
-     * Switch-statements can further help to branch the source code based on a condition or expression. Switch-statemens provide a better override compared to a if-else statement with multiple layers.
-     * The "break" keyword is important since it signals the code to leave the switch-statement once the source code for the specific branch is executed (otherwise the following source code in the switch-statement would be executed).
+     * Switch-statements can further help to branch the source code based on a condition or expression. Switch-statements provide a better overview compared to an if-else statement with multiple layers.
+     *
+     * Note: The "break" keyword is important since it signals the code to leave the switch-statement once the source code for the specific branch is executed (otherwise the rest of the source code in the switch-statement would be executed).
      *
      * switch (expression) {
      *    case constant:
@@ -122,7 +123,7 @@ void demoSwitchStatement(int someInt)
 void demoConditionalOperator(bool status)
 {
     /*
-     * The conditional operator can be used to assign a value to a variable after evaluating a specific condition.
+     * The conditional assignment operator can be used to assign a value to a variable after evaluating a specific condition.
      *
      * type variableName = (condition) ? valueIfConditionTrue : valueIfConditionFalse;
      */

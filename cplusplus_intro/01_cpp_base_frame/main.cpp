@@ -21,7 +21,7 @@ int main()
     std::cout << "Hej hej world!";
     
     // return statement with the value 0
-    // 0 indicates that eveyrthing is okay
+    // 0 indicates that everything is okay
     return 0;
 }
 
@@ -32,7 +32,7 @@ int main()
  * {
  *      // statements
  *
- *      // return statement, except for funtion type "void"
+ *      // return statement, except for funtions of type "void"
  * }
  *
  * e.g. for the above stated main function

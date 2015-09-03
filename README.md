@@ -1,12 +1,10 @@
 # cplusplus_intro
-A brief introduction to C++.
-
 The purpose of this project is to provide a very brief introduction to the C++ programming language. Through a series of stages, fundamental concepts of C++ are illustrated and described.
 
 The project was created as part of an overall introduction to creative coding using [openFrameworks](http://openframeworks.cc), which is based on C++.
 
 ## Project walkthrough
-Following a brief project walkthrough is given, illustrating the single stages of the introduction to C++. Each step of the walkthrough describes the content of the corresponding project folder.
+Following a summarized project walkthrough is given, illustrating the single stages of this introduction to C++. Each step of the walkthrough describes the content of the corresponding project folder.
 
 ### 01 - C++ base frame
 Illustrating the base frame of every C++ program, concretely the *main()* function. The function features a simple print out of some text to the *standard output stream*. Furthermore the *syntax* of a function in C++ is described.
@@ -33,4 +31,7 @@ Basic *primitive (built-in) data types* are summarized, concretely int, char, fl
 Functionalities in order to iterate and thus execute source code over and over again are illustrated in form of the *for-loop* and the *while-loop*. Additionally, an example for the *iteration over an array* collection is demonstrated.
 
 ### 09 - Branching source code using conditional statements
-Using the *if-else statement*, the *switch-statement* as well as the *conditional operator*, different possibilities to branch source code are illustrated, helping the user to react on conditions directly.
+Using the *if-else statement*, the *switch-statement* as well as the *conditional operator*, different possibilities to branch source code are illustrated, helping the user to react on dynamic conditions directly.
+
+### 10 - Relational and logical operators
+During this step, common *relational* (==, !=, >, <, >=, <=) and *logical* (&&, ||, !) *operators* in C++ are introduced in order to use the full potential of the prior described approaches to create branches in the source code. 
