@@ -1,4 +1,4 @@
-# cplusplus_intro
+# A very brief introduction to C++ in preparation to creative coding using openFrameworks
 The purpose of this project is to provide a very brief introduction to the C++ programming language. Through a series of stages, fundamental concepts of C++ are illustrated and described.
 
 The project was created as part of an overall introduction to creative coding using [openFrameworks](http://openframeworks.cc), which is based on C++.
