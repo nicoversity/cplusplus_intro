@@ -34,4 +34,8 @@ Functionalities in order to iterate and thus execute source code over and over a
 Using the *if-else statement*, the *switch-statement* as well as the *conditional operator*, different possibilities to branch source code are illustrated, helping the user to react on dynamic conditions directly.
 
 ### 10 - Relational and logical operators
-During this step, common *relational* (==, !=, >, <, >=, <=) and *logical* (&&, ||, !) *operators* in C++ are introduced in order to use the full potential of the prior described approaches to create branches in the source code. 
+During this step, common *relational* (==, !=, >, <, >=, <=) and *logical* (&&, ||, !) *operators* in C++ are introduced in order to use the full potential of the prior described approaches to create branches in the source code.
+
+
+## License
+MIT License, see [LICENSE.md](LICENSE.md)
