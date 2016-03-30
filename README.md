@@ -13,7 +13,7 @@ Illustrating the base frame of every C++ program, concretely the *main()* functi
 Describing different statements in C++, such as *declaration* statement, *assignment* statement, *output* statement and *return* statement. Furthermore the terminology of *initialization* and *left-hand side (LHS)* as well as *right-hand side (RHS)* are introduced.
 
 ### 03 - Arithmetic operators, void methods and string object
-Five different *arithmetic operators*, concretely +, -, *, / and % (modulo) are introduced. Furthermore, a completely new function of type *void*, requiring no return statement, is created and called from within the main function. The new function is called *printTextAndInt* and holds two parameters: A *std::string* object and an *int* variable.
+Five different *arithmetic operators*, concretely +, -, * , / and % (modulo) are introduced. Furthermore, a completely new function of type *void*, requiring no return statement, is created and called from within the main function. The new function is called *printTextAndInt* and holds two parameters: A *std::string* object and an *int* variable.
 
 ### 04 - More functions and local vs global variables/scope
 Functions to *add* and *multiply* two variables of type *int* are created and called from within the *main()* function. Furthermore, the difference between *local* and *global variables* and their accessibility is illustrated.
